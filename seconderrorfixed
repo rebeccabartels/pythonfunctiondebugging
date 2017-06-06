@@ -1,0 +1,15 @@
+sprite = codesters.Sprite("athlete2", 0, -125)
+sprite.set_speed(4)
+
+def laps3():
+    stage.set_background("soccerfield")
+    sprite.say("I try to practice every day.")
+    sprite.move_left(200)
+    sprite.move_right(400)
+    sprite.move_left(400)
+    sprite.move_right(400)
+    sprite.move_left(400)
+    sprite.move_right(200)
+
+
+laps3()
