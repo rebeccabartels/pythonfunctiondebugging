@@ -1,0 +1,15 @@
+stage.set_background("winter")
+
+
+
+def snow():
+    stage.set_bounce(1)
+    stage.set_gravity(10)
+    snow_1 = codesters.Sprite("snowflake1", 0, 300)
+    snow_1.set_y_speed(7)
+    snow_2 = codesters.Sprite("snowflake2", 150, 300)
+    snow_2.set_y_speed(3)
+    snow_3 = codesters.Sprite("snowflake3", -150, 300)
+    snow_3.set_y_speed(11)
+    
+snow()
