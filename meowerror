@@ -1,0 +1,21 @@
+stage.set_background("houseinterior")
+whiskers = codesters.Sprite("cat", -100, -100)
+tiger = codesters.Sprite("kitten", 300, -150)
+tiger.flip_right_left()
+
+def whiskers():
+    tiger.glide_to(50, -150)
+    stage.wait(2)
+    whiskers.say("Meow.")
+    stage.wait(2)
+    whiskers.say("Meow. Meow.")
+    stage.wait(2)
+    whiskers.say("Meow.")
+    tiger.flip_right_left()
+    tiger.say("mew, mew")
+    tiger.glide_to(300, -150)
+
+whiskers()
+
+
+#need to change function name since there is also a variable named whiskers
