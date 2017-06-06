@@ -1,0 +1,10 @@
+sprite = codesters.Sprite("dinosaur", 0, -125)
+sprite.set_speed(2)
+
+def dino_band():
+    stage.set_background("concert")
+    sprite.say("My band is called Rock-asaurous Rex")
+    sprite.turn_left(360)
+
+
+dino_band()
